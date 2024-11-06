@@ -12,12 +12,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         
         // Set the root view controller to our custom ViewController
-        let mainViewController = ViewController()
+        let mainViewController = LoginViewController()
         window?.rootViewController = mainViewController
         
         // Show the window
         window?.makeKeyAndVisible()
-        
+        window?.backgroundColor = .systemBackground
         // Optional customization: fade-in effect for a nice appearance
         window?.alpha = 0
         UIView.animate(withDuration: 1.5) {
