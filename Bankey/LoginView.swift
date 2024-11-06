@@ -1,10 +1,3 @@
-//
-//  LoginView.swift
-//  Bankey
-//
-//  Created by Rana Dawar Abdullah on 06/11/2024.
-//
-
 import Foundation
 import UIKit
 
@@ -22,7 +15,7 @@ required init?(coder:NSCoder){
 
 }
 override var intrinsicContentSize:CGSize{
-    return CGSize(width: 200, height: 200)
+    return CGSize(width: 370, height: 200)
 }
 }
 
