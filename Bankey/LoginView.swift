@@ -15,7 +15,7 @@ required init?(coder:NSCoder){
 
 }
 override var intrinsicContentSize:CGSize{
-    return CGSize(width: 370, height: 200)
+    return CGSize(width: 200, height: 200)
 }
 }
 
